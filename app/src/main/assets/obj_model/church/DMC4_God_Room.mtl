@@ -1,0 +1,602 @@
+newmtl Material48
+d 1
+Ns 0
+Ni 0
+Ka 0.2 0.2 0.2
+Kd 0.8 0.8 0.8
+Ks 0 0 0
+Km 0
+map_Kd st000_t_suoazouA_BMout.png
+
+newmtl Material47
+d 1
+Ns 0
+Ni 0
+Ka 0.2 0.2 0.2
+Kd 0.8 0.8 0.8
+Ks 0 0 0
+Km 0
+map_Kd st000_t_suoazouB_BMout.png
+
+newmtl Material46
+d 1
+Ns 0
+Ni 0
+Ka 0.2 0.2 0.2
+Kd 0.8 0.8 0.8
+Ks 0 0 0
+Km 0
+map_Kd st000_t_suoazouD_BMout.png
+
+newmtl Material45
+d 1
+Ns 0
+Ni 0
+Ka 0.2 0.2 0.2
+Kd 0.8 0.8 0.8
+Ks 0 0 0
+Km 0
+map_Kd st000_t_suoazouKEN_BMout.jpg
+
+newmtl Material43
+d 1
+Ns 0
+Ni 0
+Ka 0.2 0.2 0.2
+Kd 0.8 0.8 0.8
+Ks 0 0 0
+Km 0
+map_Kd st000_t_suoazouC_BMout.png
+
+newmtl Material28
+d 1
+Ns 0
+Ni 0
+Ka 0.2 0.2 0.2
+Kd 0.8 0.8 0.8
+Ks 0 0 0
+Km 0
+map_Kd chandelierout1.jpg
+
+newmtl Material29
+d 1
+Ns 0
+Ni 0
+Ka 0.2 0.2 0.2
+Kd 0.8 0.8 0.8
+Ks 0 0 0
+Km 0
+map_Kd chandelierout1.jpg
+
+newmtl Material30
+d 1
+Ns 0
+Ni 0
+Ka 0.2 0.2 0.2
+Kd 0.8 0.8 0.8
+Ks 0 0 0
+Km 0
+map_Kd st000-t-toto_BMout.jpg
+
+newmtl Material31
+d 1
+Ns 0
+Ni 0
+Ka 0.2 0.2 0.2
+Kd 0.8 0.8 0.8
+Ks 0 0 0
+Km 0
+map_Kd st000-t-toto_BMout.jpg
+
+newmtl Material32
+d 1
+Ns 0
+Ni 0
+Ka 0.2 0.2 0.2
+Kd 0.8 0.8 0.8
+Ks 0 0 0
+Km 0
+map_Kd st000-t-kke_BMout.jpg
+
+newmtl Material35
+d 1
+Ns 0
+Ni 0
+Ka 0.2 0.2 0.2
+Kd 0.8 0.8 0.8
+Ks 0 0 0
+Km 0
+map_Kd st000-t-komo_BMout.png
+map_D st000-t-komo_BMout alpha.jpg
+
+newmtl Material34
+d 1
+Ns 0
+Ni 0
+Ka 0.2 0.2 0.2
+Kd 0.8 0.8 0.8
+Ks 0 0 0
+Km 0
+map_Kd st000-t-kinmido_BMout.png
+
+newmtl Material33
+d 1
+Ns 0
+Ni 0
+Ka 0.2 0.2 0.2
+Kd 0.8 0.8 0.8
+Ks 0 0 0
+Km 0
+map_Kd st000-t-taimatsu_BMout.jpg
+
+newmtl Material36
+d 1
+Ns 0
+Ni 0
+Ka 0.2 0.2 0.2
+Kd 0.8 0.8 0.8
+Ks 0 0 0
+Km 0
+map_Kd st000-t-gekijouchair00_BMout.jpg
+
+newmtl Material39
+d 1
+Ns 0
+Ni 0
+Ka 0.2 0.2 0.2
+Kd 0.8 0.8 0.8
+Ks 0 0 0
+Km 0
+map_Kd st000-t-toto_BMout.jpg
+
+newmtl Material01
+d 1
+Ns 0
+Ni 0
+Ka 0.2 0.2 0.2
+Kd 0.8 0.8 0.8
+Ks 0 0 0
+Km 0
+map_Kd st000-t-kai_BMout.jpg
+
+newmtl Material50
+d 1
+Ns 0
+Ni 0
+Ka 0.2 0.2 0.2
+Kd 0.8 0.8 0.8
+Ks 0 0 0
+Km 0
+map_Kd st000-t-jika_BMout.jpg
+
+newmtl Material49
+d 1
+Ns 0
+Ni 0
+Ka 0.2 0.2 0.2
+Kd 0.8 0.8 0.8
+Ks 0 0 0
+Km 0
+map_Kd st000-t-dai_BMout.jpg
+
+newmtl Material61
+d 1
+Ns 0
+Ni 0
+Ka 0.2 0.2 0.2
+Kd 0.8 0.8 0.8
+Ks 0 0 0
+Km 0
+map_Kd st000-t-jika_BMout.jpg
+
+newmtl Material62
+d 1
+Ns 0
+Ni 0
+Ka 0.2 0.2 0.2
+Kd 0.8 0.8 0.8
+Ks 0 0 0
+Km 0
+map_Kd st000-t-juju_BMout.png
+
+newmtl Material6A
+d 1
+Ns 0
+Ni 0
+Ka 0.2 0.2 0.2
+Kd 0.8 0.8 0.8
+Ks 0 0 0
+Km 0
+map_Kd ST000-t-dai_BMout.jpg
+
+newmtl Material64
+d 1
+Ns 0
+Ni 0
+Ka 0.2 0.2 0.2
+Kd 0.8 0.8 0.8
+Ks 0 0 0
+Km 0
+map_Kd st000-t-jika_BMout.jpg
+
+newmtl Material65
+d 1
+Ns 0
+Ni 0
+Ka 0.2 0.2 0.2
+Kd 0.8 0.8 0.8
+Ks 0 0 0
+Km 0
+map_Kd st000-t-kai_BMout.jpg
+
+newmtl Material66
+d 1
+Ns 0
+Ni 0
+Ka 0.2 0.2 0.2
+Kd 0.8 0.8 0.8
+Ks 0 0 0
+Km 0
+map_Kd st000-t-monshou_BMout.jpg
+
+newmtl Material68
+d 1
+Ns 0
+Ni 0
+Ka 0.2 0.2 0.2
+Kd 0.8 0.8 0.8
+Ks 0 0 0
+Km 0
+map_Kd st000-t-suiten_BMout.jpg
+
+newmtl Material69
+d 1
+Ns 0
+Ni 0
+Ka 0.2 0.2 0.2
+Kd 0.8 0.8 0.8
+Ks 0 0 0
+Km 0
+map_Kd st000-t-wakuwaku_BMout.jpg
+
+newmtl Material60
+d 1
+Ns 0
+Ni 0
+Ka 0.2 0.2 0.2
+Kd 0.8 0.8 0.8
+Ks 0 0 0
+Km 0
+map_Kd st000-t-daima_BMout.jpg
+
+newmtl Material71
+d 1
+Ns 0
+Ni 0
+Ka 0.2 0.2 0.2
+Kd 0.8 0.8 0.8
+Ks 0 0 0
+Km 0
+map_Kd st000-t-komo_BMout.png
+map_D st000-t-komo_BMout alpha.jpg
+
+newmtl Material70
+d 1
+Ns 0
+Ni 0
+Ka 0.2 0.2 0.2
+Kd 0.8 0.8 0.8
+Ks 0 0 0
+Km 0
+map_Kd st000-t-kinmido_BMout.png
+map_D st000-t-kinmido_BMout alpha.jpg
+
+newmtl Material73
+d 1
+Ns 0
+Ni 0
+Ka 0.2 0.2 0.2
+Kd 0.8 0.8 0.8
+Ks 0 0 0
+Km 0
+map_Kd st000-t-komo_BMout.png
+map_D st000-t-komo_BMout alpha.jpg
+
+newmtl Material72
+d 1
+Ns 0
+Ni 0
+Ka 0.2 0.2 0.2
+Kd 0.8 0.8 0.8
+Ks 0 0 0
+Km 0
+map_Kd st000-t-kai_BMout.jpg
+
+newmtl Material01_toumeiout
+d 1
+Ns 0
+Ni 0
+Ka 0.2 0.2 0.2
+Kd 0.8 0.8 0.8
+Ks 0 0 0
+Km 0
+map_Kd st000-t-wakuwaku_BMout.jpg
+
+newmtl Material02
+d 1
+Ns 0
+Ni 0
+Ka 0.2 0.2 0.2
+Kd 0.8 0.8 0.8
+Ks 0 0 0
+Km 0
+map_Kd st000-t-kinmido_BMout.png
+
+newmtl Material06
+d 1
+Ns 0
+Ni 0
+Ka 0.2 0.2 0.2
+Kd 0.8 0.8 0.8
+Ks 0 0 0
+Km 0
+map_Kd st000-t-komo_BMout.png
+
+newmtl Material05
+d 1
+Ns 0
+Ni 0
+Ka 0.2 0.2 0.2
+Kd 0.8 0.8 0.8
+Ks 0 0 0
+Km 0
+map_Kd st000-t-kke_BMout.jpg
+
+newmtl Material07
+d 1
+Ns 0
+Ni 0
+Ka 0.2 0.2 0.2
+Kd 0.8 0.8 0.8
+Ks 0 0 0
+Km 0
+map_Kd st000-t-mika_BMout.jpg
+
+newmtl Material08
+d 1
+Ns 0
+Ni 0
+Ka 0.2 0.2 0.2
+Kd 0.8 0.8 0.8
+Ks 0 0 0
+Km 0
+map_Kd st000-t-komo_BMout.png
+map_D st000-t-komo_BMout alpha.jpg
+
+newmtl Material10
+d 1
+Ns 0
+Ni 0
+Ka 0.2 0.2 0.2
+Kd 0.8 0.8 0.8
+Ks 0 0 0
+Km 0
+map_Kd st000-t-wakuwaku_BMout.jpg
+
+newmtl Material09
+d 1
+Ns 0
+Ni 0
+Ka 0.2 0.2 0.2
+Kd 0.8 0.8 0.8
+Ks 0 0 0
+Km 0
+map_Kd st000-t-komo_BMout.png
+
+newmtl Material08_alphaout
+d 1
+Ns 0
+Ni 0
+Ka 0.2 0.2 0.2
+Kd 0.8 0.8 0.8
+Ks 0 0 0
+Km 0
+map_Kd st000-t-stained_BMout.png
+map_D st000-t-stained_BMout alpha.jpg
+
+newmtl Material11
+d 1
+Ns 0
+Ni 0
+Ka 0.2 0.2 0.2
+Kd 0.8 0.8 0.8
+Ks 0 0 0
+Km 0
+map_Kd st000-t-kinmido_BMout.png
+map_D st000-t-kinmido_BMout alpha.jpg
+
+newmtl Material09_baseout
+d 1
+Ns 0
+Ni 0
+Ka 0.2 0.2 0.2
+Kd 0.8 0.8 0.8
+Ks 0 0 0
+Km 0
+map_Kd st000-t-komo_BMout.png
+map_D st000-t-komo_BMout alpha.jpg
+
+newmtl Material10_baseout
+d 1
+Ns 0
+Ni 0
+Ka 0.2 0.2 0.2
+Kd 0.8 0.8 0.8
+Ks 0 0 0
+Km 0
+map_Kd st000-t-kai_BMout.jpg
+
+newmtl Material11_baseout
+d 1
+Ns 0
+Ni 0
+Ka 0.2 0.2 0.2
+Kd 0.8 0.8 0.8
+Ks 0 0 0
+Km 0
+map_Kd st000-t-toto_BMout.jpg
+
+newmtl Material12
+d 1
+Ns 0
+Ni 0
+Ka 0.2 0.2 0.2
+Kd 0.8 0.8 0.8
+Ks 0 0 0
+Km 0
+map_Kd st000-t-daima_BMout.jpg
+
+newmtl Material13
+d 1
+Ns 0
+Ni 0
+Ka 0.2 0.2 0.2
+Kd 0.8 0.8 0.8
+Ks 0 0 0
+Km 0
+map_Kd st000-t-wakuwaku_BMout.jpg
+
+newmtl Material14
+d 1
+Ns 0
+Ni 0
+Ka 0.2 0.2 0.2
+Kd 0.8 0.8 0.8
+Ks 0 0 0
+Km 0
+map_Kd st000-t-wakuwaku_BMout.jpg
+
+newmtl Material15
+d 1
+Ns 0
+Ni 0
+Ka 0.2 0.2 0.2
+Kd 0.8 0.8 0.8
+Ks 0 0 0
+Km 0
+map_Kd st000-t-tenten_BMout.jpg
+
+newmtl Material16
+d 1
+Ns 0
+Ni 0
+Ka 0.2 0.2 0.2
+Kd 0.8 0.8 0.8
+Ks 0 0 0
+Km 0
+map_Kd st000-t-kai_BMout.jpg
+
+newmtl Material75
+d 1
+Ns 0
+Ni 0
+Ka 0.2 0.2 0.2
+Kd 0.8 0.8 0.8
+Ks 0 0 0
+Km 0
+map_Kd st000-t-komo_BMout.png
+map_D st000-t-komo_BMout alpha.jpg
+
+newmtl Material18
+d 1
+Ns 0
+Ni 0
+Ka 0.2 0.2 0.2
+Kd 0.8 0.8 0.8
+Ks 0 0 0
+Km 0
+map_Kd st000-t-suiten_BMout.jpg
+
+newmtl Material20
+d 1
+Ns 0
+Ni 0
+Ka 0.2 0.2 0.2
+Kd 0.8 0.8 0.8
+Ks 0 0 0
+Km 0
+map_Kd st000-t-kai_BMout.jpg
+
+newmtl Material21
+d 1
+Ns 0
+Ni 0
+Ka 0.2 0.2 0.2
+Kd 0.8 0.8 0.8
+Ks 0 0 0
+Km 0
+map_Kd st000-t-komo_BMout.png
+map_D st000-t-komo_BMout alpha.jpg
+
+newmtl Material27
+d 1
+Ns 0
+Ni 0
+Ka 0.2 0.2 0.2
+Kd 0.8 0.8 0.8
+Ks 0 0 0
+Km 0
+map_Kd st000-t-komo_BMout.png
+map_D st000-t-komo_BMout alpha.jpg
+
+newmtl Material26
+d 1
+Ns 0
+Ni 0
+Ka 0.2 0.2 0.2
+Kd 0.8 0.8 0.8
+Ks 0 0 0
+Km 0
+map_Kd st000-t-toto_BMout.jpg
+
+newmtl Material19
+d 1
+Ns 0
+Ni 0
+Ka 0.2 0.2 0.2
+Kd 0.8 0.8 0.8
+Ks 0 0 0
+Km 0
+map_Kd st000-t-daima_BMout.jpg
+
+newmtl Material25
+d 1
+Ns 0
+Ni 0
+Ka 0.2 0.2 0.2
+Kd 0.8 0.8 0.8
+Ks 0 0 0
+Km 0
+map_Kd st000-t-kai_BMout.jpg
+
+newmtl Material24
+d 1
+Ns 0
+Ni 0
+Ka 0.2 0.2 0.2
+Kd 0.8 0.8 0.8
+Ks 0 0 0
+Km 0
+map_Kd st000-t-mika_BMout.jpg
+
+newmtl Material22
+d 1
+Ns 0
+Ni 0
+Ka 0.2 0.2 0.2
+Kd 0.8 0.8 0.8
+Ks 0 0 0
+Km 0
+map_Kd st000-t-juju_BMout.png
+map_D st000-t-juju_BMout alpha.jpg
+

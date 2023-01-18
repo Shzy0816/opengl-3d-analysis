@@ -1,0 +1,15 @@
+<resources>
+    <declare-styleable name="BackgroundView">
+        <attr name="view_alpha" format="integer" />
+        <attr name="shader_alpha" format="integer" />
+        <attr name="view_color" format="color" />
+        <attr name="shadow_color" format="color" />
+        <attr name="view_radius" format="float" />
+        <attr name="shadow_radius" format="float" />
+        <attr name="shadow_deviation" format="integer" />
+        <attr name="label_text" format="string" />
+        <attr name="label_text_size" format="integer" />
+        <attr name="text" format="string" />
+        <attr name="label_position" format="string" />
+    </declare-styleable>
+</resources>

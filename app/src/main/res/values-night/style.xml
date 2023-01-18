@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="circleImageStyle">
+        <item name="cornerFamily">rounded</item>
+        <item name="cornerSize">50%</item>
+    </style>
+    <!-- 圆角图片 -->
+    <style name="roundedCornerImageStyle">
+        <item name="cornerFamily">rounded</item>
+        <item name="cornerSize">15dp</item>
+    </style>
+
+    <!-- 圆角图片 -->
+    <style name="roundedCornerImageStyle2">
+        <item name="cornerFamily">rounded</item>
+        <item name="cornerSize">35dp</item>
+    </style>
+
+    <!-- 圆角图片 -->
+    <style name="roundedCornerImageStyle3">
+        <item name="cornerFamily">rounded</item>
+        <item name="cornerSize">23dp</item>
+    </style>
+
+    <!-- 圆角图片 -->
+    <style name="roundedCornerImageStyle4">
+        <item name="cornerFamily">rounded</item>
+        <item name="cornerSizeTopLeft">5dp</item>
+        <item name="cornerSizeTopRight">5dp</item>
+    </style>
+
+    <!-- 圆角大图片 -->
+    <style name="roundedCornerImageStyleForBigPicture">
+        <item name="cornerFamily">rounded</item>
+        <item name="cornerSize">250dp</item>
+    </style>
+
+
+    <!-- 圆角小图片 -->
+    <style name="roundedCornerImageStyleForSmallIcon">
+        <item name="cornerFamily">rounded</item>
+        <item name="cornerSize">10dp</item>
+    </style>
+
+    <!-- 圆角小图片 -->
+    <style name="roundedCornerImageStyleForSmallIcon2">
+        <item name="cornerFamily">rounded</item>
+        <item name="cornerSize">12dp</item>
+    </style>
+
+
+    <!-- 半圆图片 -->
+    <style name="SemicircleStyle">
+        <item name="cornerFamily">rounded</item>
+        <item name="cornerSizeBottomLeft">100%</item>
+        <item name="cornerSizeBottomRight">100%</item>
+    </style>
+
+    <style name="window_bottom_animation" >
+        <item name="android:windowEnterAnimation">@anim/from_bottom</item>
+        <item name="android:windowExitAnimation">@anim/out_bottom</item>
+    </style>
+
+    <style name="window_center_animation" >
+        <item name="android:windowEnterAnimation">@anim/from_center</item>
+        <item name="android:windowExitAnimation">@anim/out_center</item>
+    </style>
+
+</resources>

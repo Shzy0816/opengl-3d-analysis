@@ -1,0 +1,229 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:id="@+id/surface_view_holder"
+        android:layout_width="0dp"
+        android:layout_height="600dp"
+        android:layout_margin="10dp"
+        android:orientation="horizontal"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <SurfaceView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+    </LinearLayout>
+
+
+    <com.shenyutao.opengldemo.view.BackgroundView
+        android:id="@+id/background_other_control"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginBottom="10dp"
+        app:label_position="top_mid"
+        app:label_text_size="50"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:shader_alpha="20"
+        app:shadow_color="@color/black"
+        app:shadow_deviation="20"
+        app:shadow_radius="100"
+        app:text="其它选项"
+        app:view_color="@color/white"
+        app:view_radius="100" />
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        app:layout_constraintBottom_toBottomOf="@id/background_other_control"
+        app:layout_constraintLeft_toLeftOf="@id/background_other_control"
+        app:layout_constraintRight_toRightOf="@id/background_other_control"
+        app:layout_constraintTop_toTopOf="@id/background_other_control">
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/button_texture_choose"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="7dp"
+            android:layout_marginTop="15dp"
+            android:backgroundTint="@color/white"
+            android:text="选择贴图"
+            android:textColor="@color/black"
+            android:textSize="12sp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toLeftOf="@id/button_obj_choose"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/button_obj_choose"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:backgroundTint="@color/white"
+            android:text="obj模型"
+            android:textColor="@color/black"
+            android:textSize="12sp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintLeft_toRightOf="@id/button_texture_choose"
+            app:layout_constraintRight_toLeftOf="@id/intent_to_animation_activity_button"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/intent_to_animation_activity_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:backgroundTint="@color/white"
+            android:text="Obj动画"
+            android:textColor="@color/black"
+            android:textSize="12sp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintLeft_toRightOf="@id/button_obj_choose"
+            app:layout_constraintRight_toLeftOf="@id/intent_to_bone_animation_activity_button"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/intent_to_bone_animation_activity_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:layout_marginEnd="10dp"
+            android:backgroundTint="@color/white"
+            android:elevation="10dp"
+            android:text="骨骼动画"
+            android:textColor="@color/black"
+            android:textSize="12sp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintLeft_toRightOf="@id/intent_to_animation_activity_button"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <com.shenyutao.opengldemo.view.BackgroundView
+        android:id="@+id/background_render_control"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        app:label_position="top_left"
+        app:label_text_size="50"
+        app:layout_constraintBottom_toTopOf="@id/background_other_control"
+        app:layout_constraintLeft_toLeftOf="@id/surface_view_holder"
+        app:layout_constraintRight_toLeftOf="@id/background_camera_control"
+        app:layout_constraintTop_toBottomOf="@id/surface_view_holder"
+        app:shader_alpha="20"
+        app:shadow_color="@color/black"
+        app:shadow_deviation="20"
+        app:shadow_radius="100"
+        app:text="Render选择"
+        app:view_color="@color/white"
+        app:view_radius="100" />
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/render_radio_holder"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintBottom_toBottomOf="@id/background_render_control"
+        app:layout_constraintLeft_toLeftOf="@id/background_render_control"
+        app:layout_constraintRight_toRightOf="@id/background_render_control"
+        app:layout_constraintTop_toTopOf="@id/background_render_control">
+
+        <RadioGroup
+            android:id="@+id/render_radio_group"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+
+            <RadioButton
+                android:id="@+id/radio_triangle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="三角形" />
+
+            <RadioButton
+                android:id="@+id/radio_cube"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="正方体" />
+
+            <RadioButton
+                android:id="@+id/radio_obj"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:checked="true"
+                android:text="Obj模型" />
+
+            <RadioButton
+                android:id="@+id/radio_cube_with_texture"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="自定义贴图正方体" />
+
+        </RadioGroup>
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+    <com.shenyutao.opengldemo.view.BackgroundView
+        android:id="@+id/background_camera_control"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        app:label_text_size="50"
+        app:layout_constraintBottom_toTopOf="@id/background_other_control"
+        app:layout_constraintLeft_toRightOf="@id/background_render_control"
+        app:layout_constraintRight_toRightOf="@id/surface_view_holder"
+        app:layout_constraintTop_toBottomOf="@id/surface_view_holder"
+        app:shader_alpha="20"
+        app:shadow_color="@color/black"
+        app:shadow_deviation="20"
+        app:shadow_radius="100"
+        app:text="相机控制"
+        app:view_color="@color/white"
+        app:view_radius="100" />
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/button_holder"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintBottom_toBottomOf="@id/background_camera_control"
+        app:layout_constraintLeft_toLeftOf="@id/background_camera_control"
+        app:layout_constraintRight_toRightOf="@id/background_camera_control"
+        app:layout_constraintTop_toTopOf="@id/background_camera_control">
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/button_up"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:backgroundTint="@color/white"
+            android:text="↑"
+            android:elevation="20dp"
+            android:textColor="@color/black"
+            app:layout_constraintBottom_toTopOf="@id/button_down"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/button_down"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:backgroundTint="@color/white"
+            android:text="↓"
+            android:elevation="20dp"
+            android:textColor="@color/black"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/button_up" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
